@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Qalam Studio | Scripted with Soul</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-white shadow-md p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-800">Al Qalam Studio</h1>
+      <p class="italic text-sm text-gray-500">Scripted with Soul</p>
+    </div>
+  </header>
+
+  <section class="bg-green-100 py-10">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-2">Welcome to Al Qalam Studio</h2>
+      <p class="max-w-2xl mx-auto text-lg">We create handmade Islamic calligraphy that blends timeless verses with elegant design. Each piece is crafted with spiritual meaning and artistic soul, perfect for your home, office, or as a gift of Barakah.</p>
+    </div>
+  </section>
+
+  <section class="py-10 container mx-auto">
+    <h3 class="text-2xl font-bold text-center mb-6">What We Offer</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-2">Small Paintings</h4>
+        <p>Size: A4 (8x10 inches)<br>Price: AED 40 – 80<br>Ideal for short ayahs, names of Allah, or personalized name designs.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-2">Medium Paintings</h4>
+        <p>Size: A3 (12x16 inches)<br>Price: AED 90 – 150<br>Decorative calligraphy with more detail and mid-length verses.</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-2">Large Paintings</h4>
+        <p>Size: 18x24 inches and above<br>Price: AED 160 – 300+<br>Perfect for full verses, intricate backgrounds, and layered artwork.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-10 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Place Your Order</h3>
+      <form class="max-w-xl mx-auto bg-gray-100 p-6 rounded-lg shadow-md">
+        <div class="mb-4">
+          <label class="block text-left mb-2 font-semibold">Name</label>
+          <input type="text" class="w-full p-2 border rounded" required>
+        </div>
+        <div class="mb-4">
+          <label class="block text-left mb-2 font-semibold">Email</label>
+          <input type="email" class="w-full p-2 border rounded" required>
+        </div>
+        <div class="mb-4">
+          <label class="block text-left mb-2 font-semibold">Select Size</label>
+          <select class="w-full p-2 border rounded" required>
+            <option value="">Choose...</option>
+            <option value="small">Small (AED 40 – 80)</option>
+            <option value="medium">Medium (AED 90 – 150)</option>
+            <option value="large">Large (AED 160 – 300+)</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label class="block text-left mb-2 font-semibold">Custom Text or Verse (optional)</label>
+          <textarea class="w-full p-2 border rounded" rows="3"></textarea>
+        </div>
+        <div class="mb-4">
+          <label class="block text-left mb-2 font-semibold">Payment Method</label>
+          <select class="w-full p-2 border rounded" required>
+            <option value="">Choose...</option>
+            <option value="cod">Cash on Delivery</option>
+            <option value="online">Online Payment</option>
+          </select>
+        </div>
+        <button type="submit" class="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded">Submit Order</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-200 text-center py-4 mt-10">
+    <p>&copy; 2025 Al Qalam Studio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
